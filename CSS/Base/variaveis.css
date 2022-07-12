@@ -1,0 +1,65 @@
+:root{
+    --inter: 'Inter', sans-serif;
+
+    --bold: 700;
+    --semi-bold: 600;
+    --medium: 500;
+    --regular: 400;
+    --light: 300;
+
+    --red-primary: #F41816;
+    --red-dark: #DB0C0A;
+    --red-light: #FEF3F3;
+    
+    --gray-pure: #4D4D4D;
+    --gray-dark: #707070;;
+    --gray-medium: #7E7E7E;;
+    --gray-low: #ABABAB;
+    --gray-light: #F7F7F7;
+
+    --background: #F4F4F5;
+    --white: #FFFFFF;
+    --black:  #000000;
+
+    --stroke-primary: #E6E6E6;
+    --stroke-secundary: #DEDEDE;
+    --stroke-red: #FDD3D3;
+
+    --line-xs:  115.2%;
+    --line-sm:  120%;
+    --line-md:  133%;
+    --line-lg:  150%;
+    --line-xl:  170%;
+    --line-xxl: 200%;
+    
+    --font-xs: 24px;
+    --font-sm: 32px;
+    --font-md: 48px;
+    --font-lg: 72px;
+    --font-xl: 96px;
+    --font-xxl: 208px;
+
+    --border-circular: 50%
+}
+body a{
+    color: #FFFFFF;
+}
+body{
+    scroll-behavior: smooth;
+}
+
+#body{
+    scroll-behavior: smooth;
+}
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+textarea{
+    resize: none;
+    user-select: none;
+}
+textarea::selection{
+    background-color: transparent;
+}
