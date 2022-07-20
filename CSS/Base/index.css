@@ -4,4 +4,6 @@
 @import url("./reset.css");
 
 /*----------------COMPONENTES--------------*/
-@import url("../Componentes/Cabecalho/index.css");
+@import url("../Componentes/Cabecalho/cabecalho.css");
+@import url("../Componentes/Aside/aside.css");
+

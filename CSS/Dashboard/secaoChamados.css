@@ -1,0 +1,190 @@
+@media (min-width:0px){
+    .secao__chamados{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.875rem;
+
+        width: 50vw;
+    }
+    .secao__abrir__chamados{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        padding-top: 1.688rem;
+        padding-bottom: 1.688rem;
+
+
+        width: 44vw;
+        
+        border: 2px solid var(--stroke-1);
+        border-radius: 8px;
+    }
+    .container__input__abrir__chamado{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.375rem;
+    }
+    .label__input__abrir__chamado{
+        color: var(--gray-40);
+        font-size: var(--font-12);
+        font-weight: var(--semi-bold);
+    }
+    /*-.input__abrir__chamado{
+        color: var(--gray-60);
+
+        border-radius: 8px;
+        border: 1px solid var(--stroke-1);
+
+        padding-left: 0.625rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        padding-right: 0.833rem;
+
+        font-size: var(--font-13);
+    }*/
+    .input__abrir__chamado:focus{
+        outline: 1px solid var(--red-primary);
+    }
+    .botao__solicita__chamado{
+        border: 1px solid var(--stroke-2);
+        border-radius: 8px;
+
+        background-color: transparent;
+
+        padding-top: 0.463rem;
+        padding-bottom: 0.463rem;
+        padding-left: 0.625rem;
+        padding-right: 0.708rem;
+
+        font-size: var(--font-15);
+        font-weight: var(--medium);
+        color: var(--red-primary);
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 0.483rem;
+        
+    }
+    .secao__lista__chamados{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        width: 40.125rem;
+
+        background-color: var(--mono-white);
+
+        border: 2px solid var(--stroke-1);
+        border-radius: 8px;
+    }
+    .secao__cabecalho__chamados{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        
+        width: 40.125rem;
+
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        padding-top: 1.5rem;
+        padding-bottom: 1rem;
+    }
+    .titulo__cabecalho__chamados{
+        font-size: var(--font-15);
+        font-weight: var(--medium);
+
+        color: var(--mono-black);
+    }
+    .botao__ver-todos__cabecalho__chamados{
+        background-color: transparent;
+        border: none;
+
+        color: var(--red-primary);
+        font-weight: var(--medium);
+        font-size: var(--font-13);
+
+        text-decoration: underline;
+    }
+    .secao__cabecalho__lista__chamados{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        
+        width: 40.125rem;
+
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        padding-top: 0.75rem;
+        padding-bottom: 0.75rem;
+
+        background-color: var(--gray-20);
+
+        border-left: 2px solid var(--stroke-1);
+        border-right: 2px solid var(--stroke-1);
+        border-top: 1px solid var(--stroke-1);
+        border-bottom: 1px solid var(--stroke-1);
+    }
+    .item__cabecalho__lista__chamados{
+        color: var(--gray-60);
+        font-size: var(--font-13);
+        font-weight: var(--medium);
+    }
+    .item__cabecalho__lista__chamados__ponto-venda{
+        width: 12.328rem;
+    }
+    .item__cabecalho__lista__chamados__data-ocorrencia{
+        width: 11.688rem;
+    }
+    .item__cabecalho__lista__chamados__data-sla{
+        width: 14.1rem;
+    }
+    .lista__chamados{
+        display: flex;
+        flex-direction: column;
+        width: 40.125rem;
+        
+    }
+    .item__lista__chamados{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 40.125rem;
+        
+        
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        padding-top: .7rem;
+        padding-bottom: .7rem;
+
+        border-bottom: 1px solid var(--stroke-1);
+    }
+    .item__lista__chamados:last-child{
+        border-bottom: none;
+    }
+    .item__lista{
+        color: var(--gray-80);
+        font-size: var(--font-13);
+        font-weight: var(--regular);
+    }
+    .item__lista__ponto-venda{
+        width: 12.328rem;
+    }
+    .item__lista__data-ocorrencia{
+        width: 11.688rem;
+    }
+    .item__lista__data-sla{
+        width: 12.264rem;
+    }
+    .link__ver__item__lista{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+}

@@ -1,0 +1,66 @@
+@media (min-width:0px){
+    
+    .secao__cards__dashboard{
+        display: flex;
+        
+        width: 50vw;
+    }
+    .lista__cards__dashboard{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 1.875rem;
+
+        flex-wrap: wrap;
+
+        width: 47vw;
+
+    }
+    .item__cards__dashboard{
+        width: 21.25vw;
+        height: 6.75rem;
+
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding: 1.25rem;
+
+        background-color: var(--mono-white);
+        border-radius: 8px;
+    }
+    .secao__duplo__info__dashboard{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 1.188rem;
+    }
+    .container__info__cards__dashboard{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.313rem;
+    }
+    .container__logo__cards__dashboard{
+        width: 2.5rem;
+        height: 2.5rem;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        background-color: var(--mono-background);
+        border-radius: 10px;
+    }
+    .titulo__info__cards__dashboard{
+        color: var(--gray-30);
+        font-weight: var(--semi-bold);
+        font-size: var(--font-14);
+    }
+    .valor__info__cards__dashboard{
+        color: var(--mono-black);
+        font-weight: var(--semi-bold);
+        font-size: var(--font-25);
+    }
+}

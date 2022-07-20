@@ -11,35 +11,41 @@
     --red-dark: #DB0C0A;
     --red-light: #FEF3F3;
     
-    --gray-pure: #4D4D4D;
-    --gray-dark: #707070;;
-    --gray-medium: #7E7E7E;;
-    --gray-low: #ABABAB;
-    --gray-light: #F7F7F7;
+    --gray-80: #4D4D4D;
+    --gray-60: #666666;;
+    --gray-40: #7E7E7E;;
+    --gray-30: #ABABAB;
+    --gray-20: #F7F7F7;
 
-    --background: #F4F4F5;
-    --white: #FFFFFF;
-    --black:  #000000;
+    --mono-background: #F4F4F5;
+    --mono-white: #FFFFFF;
+    --mono-black:  #000000;
 
-    --stroke-primary: #E6E6E6;
-    --stroke-secundary: #DEDEDE;
+    --stroke-1: #E6E6E6;
+    --stroke-2: #DEDEDE;
     --stroke-red: #FDD3D3;
-
-    --line-xs:  115.2%;
-    --line-sm:  120%;
-    --line-md:  133%;
-    --line-lg:  150%;
-    --line-xl:  170%;
-    --line-xxl: 200%;
     
-    --font-xs: 24px;
-    --font-sm: 32px;
-    --font-md: 48px;
-    --font-lg: 72px;
-    --font-xl: 96px;
-    --font-xxl: 208px;
+    --line-16: 16px;
+    --line-17:  17px;
+    --line-18:  18px;
+    --line-19:  19px;
+    --line-24:  24px;
+    --line-30:  30px;
+    --line-39: 39px;
+    
+    --font-12: 12px;
+    --font-13: 13px;
+    --font-14: 14px;
+    --font-15: 15px;
+    --font-20: 20px;
+    --font-25: 25px;
+    --font-32: 32px;
 
-    --border-circular: 50%
+    --border-circular: 50%;
+
+    --box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.16);
+    --box-shadow-border: 1px solid #E6E6E6;
+    --box-shadow-border-radius: 8px;
 }
 body a{
     color: #FFFFFF;
@@ -50,6 +56,7 @@ body{
 
 #body{
     scroll-behavior: smooth;
+    font-family: var(--inter);
 }
 html{
     scroll-behavior: smooth;

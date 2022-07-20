@@ -1,0 +1,176 @@
+@media (min-width:0px){
+    .lista__link__cabecalho{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 2.883rem;
+    }
+    .item__lista__link__cabecalho{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 0.571rem;
+
+        color: var(--gray-40);
+
+        font-weight: var(--regular);
+        font-size: var(--font-14);
+
+        padding-bottom: 1.313rem;
+        padding-top: 1.508rem;
+
+        border-bottom: 2px solid transparent;
+
+        background-color: transparent;
+        border-left: none;
+        border-right: none;
+        border-top: none;
+
+        transition: all .15s ease-in-out;
+    }
+    .item__lista__link__cabecalho:hover{
+        color: var(--mono-black);
+
+        transition: all .15s ease-in-out;
+    }
+    .item__lista__link__cabecalho:hover .vetor-cabecalho{
+        fill: var(--mono-black);
+
+        transition: all .15s ease-in-out;
+    }
+    .item__lista__link__cabecalho--ativo{
+        color: var(--red-primary);
+        font-weight: var(--semi-bold);
+
+        border-bottom: 2px solid var(--red-primary);
+    }
+    .item__lista__link__cabecalho--ativo:hover{
+        color: var(--red-primary);
+
+        transition: all .15s ease-in-out;
+    }
+    .item__lista__link__cabecalho--ativo:hover .vetor-ativo-cabecalho{
+        fill: var(--red-primary);
+
+        transition: all .15s ease-in-out;
+    }
+    .vetor-cabecalho{
+        transition: all .15s ease-in-out;
+    }
+    .vetor-ativo-cabecalho{
+        fill: var(--red-primary);
+    }
+
+    .container__hover__conteudo__cabecalho{
+        width: 8.288rem;
+        height: 4.071rem;
+
+        overflow-y: visible;
+        overflow-x: visible;
+        cursor: pointer;
+    }
+    .container__hover__conteudo__cabecalho:hover .secao__hover__conteudo__cabecalho{
+        opacity: 1;
+        visibility: visible;
+
+        transition: all .15s ease-in-out;
+    }
+    .container__hover__conteudo__cabecalho:hover .item__lista__link__cabecalho{
+        color: var(--mono-black);
+
+        transition: all .15s ease-in-out;
+    }
+    .container__hover__conteudo__cabecalho:hover .vetor-cabecalho{
+        fill: var(--mono-black);
+
+        transition: all .15s ease-in-out;
+    }
+    .container__hover__conteudo__cabecalho:hover .vetor-cabecalho-dropdown{
+        fill: var(--red-primary);
+
+        transition: all .15s ease-in-out;
+    }
+    .secao__hover__conteudo__cabecalho{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        box-shadow: var(--box-shadow);
+        border: var(--box-shadow-border);
+        border-radius: var(--box-shadow-border-radius);
+
+        padding-top: 1.005rem;
+        padding-left: 0.375rem;
+        padding-right: 0.375rem;
+        padding-bottom: 0.375rem;
+
+        width: 11.5rem;
+
+        position: relative;
+
+        top: -1rem;
+        left: -3.6rem;
+
+        background-color: var(--mono-white);
+
+        opacity: 0;
+        visibility: hidden;
+
+        transition: all .15s ease-in-out;
+    }
+    .titulo__hover__conteudo__cabecalho{
+        color: var(--gray-30);
+        font-size: var(--font-13);
+        font-weight: var(--medium);
+
+        padding-bottom: 1.131rem;
+        padding-left: 0.75rem;
+    }
+    .lista__hover__conteudo__cabecalho{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.256rem;
+
+        padding-left: 0.75rem;
+        padding-right: 0.75rem;
+        padding-bottom: 1.458rem;
+    }
+    .item__hover__conteudo__cabecalho{
+        color: var(--gray-80);
+
+        font-weight: var(--regular);
+        font-size: var(--font-14);
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 0.688rem;
+    }
+    .link__download__relatorio{
+        color: var(--red-primary);
+        font-weight: var(--semi-bold);
+        font-size: var(--font-14);
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 0.766rem;
+
+        border: 1px solid var(--stroke-1);
+        border-radius: 8px;
+
+        width: 10.75rem;
+
+        padding-top: 0.758rem;
+        padding-bottom: 0.758rem;
+
+        transition: all .15s ease-in-out;
+    }
+    .link__download__relatorio:hover{
+        border: 1px solid var(--red-primary);
+
+        transition: all .15s ease-in-out;
+    }
+}

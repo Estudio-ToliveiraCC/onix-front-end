@@ -1,0 +1,23 @@
+@import url("./listaLinks.css");
+@import url("./secaoPerfil.css");
+
+@media (min-width:0px){
+    .cabecalho{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 100vw;
+
+        padding-left: 6.196rem;
+        padding-right: 1.813rem;
+        
+
+        border-bottom: 1px solid var(--stroke-1);
+
+        z-index: 20;
+
+        background-color: var(--mono-white);
+    }
+    
+}

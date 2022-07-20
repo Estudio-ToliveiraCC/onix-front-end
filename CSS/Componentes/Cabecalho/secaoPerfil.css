@@ -1,0 +1,77 @@
+@media (min-width:0px){
+    .secao__perfil__cabecalho{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 1rem;
+
+        height: 4rem;
+    }
+    .secao__botoes__perfil__cabecalho{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: .5rem;
+
+        padding-right: 1rem;
+
+        border-right: 1px solid var(--stroke-1);
+
+        height: 100%;
+    }
+    .botao__perfil__cabecalho{
+        background-color: transparent;
+
+        border: 1px solid var(--stroke-1);
+        border-radius: 8px;
+
+        padding-top: 0.619rem;
+        padding-bottom: 0.619rem;
+        padding-left: 0.625rem;
+        padding-right: 0.625rem;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .secao__info__perfil__cabecalho{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 1.734rem;
+    }
+    .container__perfil__cabecalho{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: .5rem;
+    }
+    .imagem__perfil__cabecalho{
+        width: 2.375rem;
+        height: 2.375rem;
+
+        border-radius: 50%;
+    }
+    .info__container__perfil__cabecalho{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.188rem;
+    }
+    .nome__perfil__info__cabecalho{
+        font-weight: var(--semi-bold);
+        font-size: var(--font-14);
+
+        color: var(--mono-black);
+    }
+    .cargo__perfil__info__cabecalho{
+        font-weight: var(--regular);
+        font-size: var(--font-12);
+        color: var(--gray-40);
+    }
+    .botao__mais__info__perfil__cabecalho{
+        border: none;
+        background-color: transparent;
+    }
+}

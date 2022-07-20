@@ -1,0 +1,90 @@
+@media (min-width:0px){
+
+.aside__conteudo{
+    width: 4.375rem;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.552rem;
+
+    padding: 1.063rem;
+
+    border-right: 1px solid var(--stroke-1);
+
+    position: fixed;
+
+    z-index: 30;
+
+    background-color: var(--mono-white);
+}
+.secao__plataformas__aside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+.botao__plataformas__aside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+    border: 1px solid var(--stroke-1);
+
+    width: 2.5rem;
+    height: 2.5rem;
+
+    background-color: var(--mono-white);
+
+    padding: 0.938rem 0.625rem;
+
+    transition: all .15s ease-in-out;
+}
+.botao__plataformas__aside:hover{
+    background-color: var(--mono-background);
+
+    transition: all .15s ease-in-out;
+}
+.sigla__botao__plataforma__aside{
+    font-weight: var(--semi-bold);
+    color: var(--gray-40);
+    font-size: var(--font-14);
+}
+.botao__plataformas__aside--ativo{
+    background-color: var(--red-light);
+    border: 1px solid var(--stroke-red);
+}
+.botao__plataformas__aside--ativo:hover{
+    background-color: var(--red-light);
+}
+.sigla__botao__plataforma__aside--ativo{
+    color: var(--red-primary);
+}
+.container__botao__plataforma__aside{
+    display: flex;
+    align-items: center;
+    width: 2.5rem;
+    height: 2.5rem;
+
+    overflow-y: visible;
+    overflow-x: visible;
+}
+.botao__plataformas__aside__container__hover{
+    position: relative;
+    left: .5rem;
+}
+.botao__plataforma__business{
+    width: 8.25rem;
+
+    padding-left: 1.125rem;
+    padding-right: 1.125rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+.texto__aside__container__hover{
+    width: 2rem;
+}
+}
